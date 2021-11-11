@@ -1,0 +1,324 @@
+<html>
+<head>
+<title>TestNG:  Java By Kiran Offline Website Automation </title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Java By Kiran Offline Website Automation </h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>49/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 30 19:35:55 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>114 seconds (114198 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.verifyTechnicalJob()'><b>verifyTechnicalJob</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.facultyAvailable()'><b>facultyAvailable</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkCourseLink()'><b>checkCourseLink</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkOperatorsLinkMenu()'><b>checkOperatorsLinkMenu</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkColumn()'><b>checkColumn</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkFooterLink()'><b>checkFooterLink</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>5</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkLogoutLink()'><b>checkLogoutLink</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsefulLinksPageTest.goBtn4Click()'><b>goBtn4Click</b><br>Test class: com.PageDistribution.tests.UsefulLinksPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsefulLinksPageTest@15b3e5b</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkUsefulLinksMenu()'><b>checkUsefulLinksMenu</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkUsersLinkMenu()'><b>checkUsersLinkMenu</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkDownloadsLinkMenu()'><b>checkDownloadsLinkMenu</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.verifyTableHeaderCount()'><b>verifyTableHeaderCount</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkHeading1()'><b>checkHeading1</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.registrationPage()'><b>registrationPage</b><br>Test class: com.PageDistribution.tests.LoginPageTest<br>Parameters: e, f, g, h</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkCourseList()'><b>checkCourseList</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsefulLinksPageTest.goBtn3Click()'><b>goBtn3Click</b><br>Test class: com.PageDistribution.tests.UsefulLinksPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsefulLinksPageTest@15b3e5b</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.facultyNeelamFor()'><b>facultyNeelamFor</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkFooterLink()'><b>checkFooterLink</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkColumnNames()'><b>checkColumnNames</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.addUserButton()'><b>addUserButton</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.registrationPage()'><b>registrationPage</b><br>Test class: com.PageDistribution.tests.LoginPageTest<br>Parameters: a, b, c, d</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsefulLinksPageTest.goBtn5Click()'><b>goBtn5Click</b><br>Test class: com.PageDistribution.tests.UsefulLinksPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsefulLinksPageTest@15b3e5b</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.checkValidCredentials()'><b>checkValidCredentials</b><br>Test class: com.PageDistribution.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.verifyImage()'><b>verifyImage</b><br>Test class: com.PageDistribution.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkCurrentURL()'><b>checkCurrentURL</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.emailEndsWith1()'><b>emailEndsWith1</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkTitle()'><b>checkTitle</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.checkTitle()'><b>checkTitle</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkLink()'><b>checkLink</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkLogoutLink()'><b>checkLogoutLink</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.verifyWhatsAppUser()'><b>verifyWhatsAppUser</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsefulLinksPageTest.goBtn2Click()'><b>goBtn2Click</b><br>Test class: com.PageDistribution.tests.UsefulLinksPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsefulLinksPageTest@15b3e5b</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkSideBarMenuLinks()'><b>checkSideBarMenuLinks</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DownloadsPageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.PageDistribution.tests.DownloadsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DownloadsPageTest@61ca2dfa</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.verifyTiming()'><b>verifyTiming</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.checkCrediantialsPassword()'><b>checkCrediantialsPassword</b><br>Test class: com.PageDistribution.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.facultyAvailableMon_Sat()'><b>facultyAvailableMon_Sat</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkLabel1()'><b>checkLabel1</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkTitle()'><b>checkTitle</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.verifyTitle()'><b>verifyTitle</b><br>Test class: com.PageDistribution.tests.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkLabel1()'><b>checkLabel1</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkCourseDetails()'><b>checkCourseDetails</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkCurrentURL()'><b>checkCurrentURL</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsefulLinksPageTest.goBtn1Click()'><b>goBtn1Click</b><br>Test class: com.PageDistribution.tests.UsefulLinksPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsefulLinksPageTest@15b3e5b</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.LoginPageTest.registrationPage()'><b>registrationPage</b><br>Test class: com.PageDistribution.tests.LoginPageTest<br>Parameters: i, j, k, l</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.LoginPageTest@78186a70</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.DashboardPageTest.checkLabel()'><b>checkLabel</b><br>Test class: com.PageDistribution.tests.DashboardPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.DashboardPageTest@71623278</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsersPageTest.checkLabel()'><b>checkLabel</b><br>Test class: com.PageDistribution.tests.UsersPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsersPageTest@768b970c</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.OperatorsPageTest.facultyNeelamTiming()'><b>facultyNeelamTiming</b><br>Test class: com.PageDistribution.tests.OperatorsPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.OperatorsPageTest@5a4041cc</td></tr>
+<tr>
+<td title='com.PageDistribution.tests.UsefulLinksPageTest.goBtn6Click()'><b>goBtn6Click</b><br>Test class: com.PageDistribution.tests.UsefulLinksPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.PageDistribution.tests.UsefulLinksPageTest@15b3e5b</td></tr>
+</table><p>
+</body>
+</html>

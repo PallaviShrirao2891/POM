@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.ExtentReport.ExtentReporterNG" />
+	</listeners>
+	<test name="Java By Kiran Offline Website Automation ">
+		<classes>
+			<class name="com.PageDistribution.tests.LoginPageTest"></class>
+			<class name="com.PageDistribution.tests.DashboardPageTest"></class>
+			<class name="com.PageDistribution.tests.UsersPageTest"></class>
+			<class name="com.PageDistribution.tests.OperatorsPageTest"></class>
+			<class name="com.PageDistribution.tests.UsefulLinksPageTest"></class>
+			<class name="com.PageDistribution.tests.DownloadsPageTest"></class>
+		</classes>
+		<!-- <packages> <package name="com.PageDistribution.tests" /> </packages> -->
+	</test>
+</suite> 

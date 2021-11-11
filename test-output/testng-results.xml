@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7560" started-at="2021-11-10T18:46:36 IST" finished-at="2021-11-10T18:46:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7560" started-at="2021-11-10T18:46:36 IST" finished-at="2021-11-10T18:46:44 IST">
+      <class name="com.PageDistribution.tests.UsersPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="setUp" is-config="true" duration-ms="5281" started-at="2021-11-10T18:46:36 IST" finished-at="2021-11-10T18:46:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="emailEndsWith1()[pri:0, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="emailEndsWith1" duration-ms="297" started-at="2021-11-10T18:46:41 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailEndsWith1 -->
+        <test-method status="PASS" signature="checkTitle()[pri:1, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkTitle" duration-ms="15" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="checkCurrentURL()[pri:2, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkCurrentURL" duration-ms="8" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCurrentURL -->
+        <test-method status="PASS" signature="checkLabel()[pri:3, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkLabel" duration-ms="35" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLabel -->
+        <test-method status="PASS" signature="checkLabel1()[pri:4, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkLabel1" duration-ms="27" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLabel1 -->
+        <test-method status="PASS" signature="addUserButton()[pri:5, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="addUserButton" duration-ms="333" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserButton -->
+        <test-method status="PASS" signature="checkHeading1()[pri:6, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkHeading1" duration-ms="34" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHeading1 -->
+        <test-method status="PASS" signature="checkColumnNames()[pri:7, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkColumnNames" duration-ms="270" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkColumnNames -->
+        <test-method status="PASS" signature="checkColumn()[pri:8, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkColumn" duration-ms="227" started-at="2021-11-10T18:46:42 IST" finished-at="2021-11-10T18:46:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkColumn -->
+        <test-method status="PASS" signature="checkFooterLink()[pri:9, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkFooterLink" duration-ms="102" started-at="2021-11-10T18:46:43 IST" finished-at="2021-11-10T18:46:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFooterLink -->
+        <test-method status="PASS" signature="checkLogoutLink()[pri:10, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="checkLogoutLink" duration-ms="172" started-at="2021-11-10T18:46:43 IST" finished-at="2021-11-10T18:46:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLogoutLink -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.PageDistribution.tests.UsersPageTest@fe18270]" name="tearDown" is-config="true" duration-ms="695" started-at="2021-11-10T18:46:43 IST" finished-at="2021-11-10T18:46:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.PageDistribution.tests.UsersPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
