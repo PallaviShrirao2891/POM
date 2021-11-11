@@ -12,7 +12,6 @@ public class ListenerEx implements ITestListener {
 
 		log.info("Test Case Started with name:- " + result);
 	}
-
 	public void onTestSuccess(ITestResult result) {
 		log.info("Test Case Passed with name:- " + result);
 	}
